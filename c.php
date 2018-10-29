@@ -1,7 +1,6 @@
 <?php
-       // 1. 啟動 Session
+       // 1. start Session
        session_start();
-       // 3. 寫入 Session 變數
 if ($_SESSION["a"] != NULL) {
 echo $_SESSION["a"];
 } else {
