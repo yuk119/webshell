@@ -1,6 +1,6 @@
 <?php session_start(); ?>
 <?php
-$Z = 8964123; //default password
+$Z = 123456; //default password
 $a =  $_POST["login"] ;
 $b =  $Z ;
 if ($a == $b) {
